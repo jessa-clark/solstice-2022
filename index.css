@@ -46,6 +46,7 @@ font-family: 'Prompt', sans-serif;*/
   --mb-0-5: .5rem;
   --mb-0-75: .75rem;
   --mb-1: 1rem;
+  --mb-1-5: 1.5rem;
   --mb-2: 2rem;
   --mb-2-5: 2.5rem;
   --mb-3: 3rem;
@@ -108,3 +109,35 @@ img {
 }
 
   /*========== REUSABLE CSS CLASSES ==========*/
+.section{
+  padding: 2rem 0 4rem;
+}
+
+.section_title {
+  font-size: var(--h1-font-size);
+}
+
+.section_subtitle {
+  display: block;
+  font-size: var(--small-font-size);
+  margin-bottom: var(--mb-3);
+}
+
+.section_title, .section_subtitle {
+  text-align: center;
+}
+
+/*========== LAYOUT ==========*/
+.container {
+  max-width: 768px;
+  margin-left: var(--mb-1-5);
+  margin-right: var(--mb-1-5);
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+
+
