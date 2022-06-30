@@ -10,10 +10,10 @@ font-family: 'Prompt', sans-serif;*/
 
   /*========== Colors =========*/
   /* Change favorite color */
-  --hue-color: 214;
+  --hue-color: 180; /* light blue 214, turquoise 180
 
   /* HSL color mode */
-  --first-color: hsl(var(--hue-color), 61%, 87%);
+  --first-color: hsl(var(--hue-color), 100%, 35%);
   --first-color-second: hsl(var(--hue-color), 61%, 87%);
   --first-color-alt: hsl(var(--hue-color), 49%, 81%);
   --first-color-lighter: hsl(var(--hue-color), 84%, 96%);
@@ -285,7 +285,7 @@ img {
 }
 
 .home_scroll {
-  /* display: none; */
+  display: none;
 }
 
 .home_scroll-button {
@@ -312,4 +312,31 @@ img {
   font-size: 1.25rem;
 }
 
-/
+/*========= BUTTONS ==========*/
+.button {
+  display: inline-block;
+  background-color: var(--first-color);
+  color: #FFF;
+  padding: 1rem;
+  border-radius: .5rem;
+  font-weight: var(--font-light);
+}
+
+.button:hover {
+  background-color: var(--first-color-alt);
+}
+
+.button_icon {
+  font-size: 1.25rem;
+  margin-left: var(--mb-0-5);
+  transition: .3s;
+}
+
+.button--flex {
+  display: inline-flex;
+  align-items: center;
+
+}
+/*========= ABOUT ==========*/
+/*========= SKILLS ==========*/
+/*========= QUALIFICATIONS ==========*/
