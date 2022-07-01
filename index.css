@@ -21,7 +21,18 @@ font-family: 'Prompt', sans-serif;*/
   --text-color: hsl(var(--hue-color), 23%, 71%);
   --text-color-light: hsl(var(--hue-color), 23%, 91%);
   --input-color: hsl(var(--hue-color), 62%, 91%);
-  --body-color: hsl(var(--hue-color), 52%, 97%);
+  --body-color: hsl(var(--hue-color), 52%, 97%);0
+
+
+
+
+
+
+
+
+
+
+
   --container-color: #FFF;
 
   /*========== Font and typography =========*/
@@ -338,5 +349,43 @@ img {
 
 }
 /*========= ABOUT ==========*/
+.about_img {
+  width: 200px;
+  border-radius: .5rem;
+  justify-self: center;
+  align-self: center;
+}
+
+.about_description {
+  text-align: center;
+  margin-bottom: var(--mb-2-5);
+}
+
+.about_info {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: var(--mb-2-5);
+}
+
+.about_info-title{
+  font-size: var(--h2-font-size);
+  font-weight: var(--font-semi-bold);
+  color: var(--title-color);
+}
+
+.about_info-name {
+  font-size: var(--smaller-font-size);
+}
+
+.about_info-title,
+.about_info-name {
+  display: block;
+  text-align: center;
+}
+
+.about_buttons{
+  display: flex;
+  justify-content: center;
+}
 /*========= SKILLS ==========*/
 /*========= QUALIFICATIONS ==========*/
