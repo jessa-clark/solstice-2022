@@ -16,12 +16,12 @@ font-family: 'Prompt', sans-serif;*/
   --first-color: hsl(var(--hue-color), 100%, 35%);
   --first-color-second: hsl(var(--hue-color), 61%, 87%);
   --first-color-alt: hsl(var(--hue-color), 49%, 81%);
-  --first-color-lighter: hsl(var(--hue-color), 84%, 96%);
-  --title-color: hsl(var(--hue-color), 23%, 41%);
-  --text-color: hsl(var(--hue-color), 23%, 71%);
-  --text-color-light: hsl(var(--hue-color), 23%, 91%);
+  --first-color-lighter: hsl(var(--hue-color), 70%, 80%);
+  --title-color: hsl(var(--hue-color), 100%, 29%);
+  --text-color: hsl(var(--hue-color), 20%, 60%);
+  --text-color-light: hsl(var(--hue-color), 90%, 90%);
   --input-color: hsl(var(--hue-color), 62%, 91%);
-  --body-color: hsl(var(--hue-color), 52%, 97%);0
+  --body-color: hsl(var(--hue-color), 100%, 94.9%);
 
 
 
@@ -48,7 +48,7 @@ font-family: 'Prompt', sans-serif;*/
   --smaller-font-size: .75rem;
 
   /*========= Font weight =========*/
-  --font-light: 300;
+  --font-light: 500;
   --font-semi-bold: 700;
 
   /*========= Margins Bottom ==========*/
@@ -388,4 +388,117 @@ img {
   justify-content: center;
 }
 /*========= SKILLS ==========*/
+.skills_container {
+  row-gap: 0;
+}
+
+.skills_header{
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--mb-2-5);
+  cursor: pointer;
+}
+
+.skills_icon,
+.skills_arrow{
+  font-size: 2rem;
+  color: var(--first-color);
+}
+
+.skills_icon{
+  margin-right: var(--mb-0-75);
+}
+
+.skills_title{
+  font-size: var(--h3-font-size);
+}
+
+.skills_subtitle{
+  font-size: var(--small-font-size);
+  color: var(--text-color-alt);
+}
+
+.skills_arrow{
+  margin-left: auto;
+  transition: .4s;
+}
+
+.skills_list{
+  row-gap: 1.5rem;
+  padding-left: 2.7rem;
+}
+
+.skills_titles{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: var(--mb-0-5);
+}
+
+.skills_name{
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-light);
+}
+
+.skills_bar,
+.skills_percentage{
+  height: 5px;
+  border-radius: .25rem;
+}
+
+.skills_bar{
+  background-color: var(--first-color-lighter);
+}
+
+.skills_percentage{
+  display: block;
+  background-color: var(--first-color);
+}
+
+.skills_html{
+  width: 70%;
+}
+
+.skills_css{
+  width: 70%;
+}
+
+.skills_js{
+  width: 60%;
+}
+
+.skills_react{
+  width: 40%;
+}
+
+.skills_sql{
+  width: 60%;
+}
+
+.skills_nodejs{
+  width: 30%;
+}
+
+.skills_python{
+  width: 30%;
+}
+
+.skills_ruby{
+  width: 30%;
+}
+
+.skills_figma{
+  width: 60%;
+}
+
+.skills_canva{
+  width: 90%;
+}
+
+.skills_indesign{
+  width: 40%;
+}
+
+.skills_photoshop{
+  width: 30%;
+}
 /*========= QUALIFICATIONS ==========*/
